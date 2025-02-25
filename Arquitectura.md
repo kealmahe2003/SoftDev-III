@@ -6,9 +6,24 @@ Este documento describe la arquitectura inicial del sistema de gestión de órde
 
 **Equipo:** *1*
 
-**Integrantes:** *Alejandro Marin Hoyos, Carlos Alberto Camacho Castaño, Jessica Villa Nuñez, Juan David Valencia Montalvo, Kevin Alexander Marín Henao, Manuel Antonio Vidales Duran.*
+**Integrantes:** *Alejandro Marin Hoyos, Carlos Alberto Camacho Castaño, Juan David Valencia Montalvo, Kevin Alexander Marín Henao, Manuel Antonio Vidales Duran.*
 
 **Fecha:** *20/02/2025*
+
+---
+
+## 2. Requisitos Funcionales  
+Los requisitos funcionales se presentan en forma de **historias de usuario**, especificando los **criterios de aceptación**.
+
+### **Historias de Usuario**
+| **ID**    | **Historia de Usuario**                                                                                                           | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                            |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **US-01** |  [Agregar historia de usuario] |  [Agregar criterios de aceptación] |
+| **US-02** | _[Agregar historia de usuario]_                                                                                                   | _[Agregar criterios de aceptación]_                                                                                                                                                                                                                                                                                    |
+| **US-03** | _[Agregar historia de usuario]_                                                                                                   | _[Agregar criterios de aceptación]_                                                                                                                                                                                                                                                                                    |
+|           |                                                                                                                                   |                                                                                                                                                                                                                                                                                                                        |
+|           |                                                                                                                                   |                                                                                                                                                                                                                                                                                                                        |
+
 
 
 ## 3. Requisitos de Calidad
@@ -24,3 +39,19 @@ Los requisitos de calidad se presentan en forma de **historias de calidad**, sig
 | **RQ-03** | Auditor de seguridad | Se detecta una vulnerabilidad en el módulo de pagos. | Módulo de pago | Entorno de producción | Se debe aplicar un parche de seguridad en menos de 24 horas. | Tiempo entre la notificación y la resolución del problema. |
 
 ---
+
+
+## 4. Restricciones del Sistema  
+Las restricciones establecen **limitaciones** en la arquitectura del sistema, ya sean tecnológicas, de negocio, regulatorias o de infraestructura.
+
+### **Lista de Restricciones**
+| **Tipo de Restricción** | **Descripción** |
+|------------------------|----------------|
+| Regulatoria | El sistema debe cumplir con las políticas de uso de datos establecidas por la empresa, garantizando la protección de la información sensible y el cumplimiento de normativas como GDPR o la Ley de Protección de Datos Personales. Esto implica la implementación de controles de acceso, cifrado de datos y mecanismos de auditoría para asegurar el manejo adecuado de la información. |
+| _[Agregar otro tipo]_ | _[Describir la restricción]_ |
+
+>  **Tipos de restricciones:**  
+> - **Tecnológicas:** Lenguajes, frameworks o herramientas que deben utilizarse.  
+> - **De negocio:** Normativas o estándares de la empresa.  
+> - **Regulatorias:** Cumplimiento de normativas legales o de seguridad.  
+> - **De infraestructura:** Limitaciones en hardware, red o almacenamiento.  
