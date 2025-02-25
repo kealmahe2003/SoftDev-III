@@ -48,10 +48,10 @@ Las restricciones establecen **limitaciones** en la arquitectura del sistema, ya
 | **Tipo de Restricción** | **Descripción** |
 |------------------------|----------------|
 | Regulatoria | El sistema debe cumplir con las políticas de uso de datos establecidas por la empresa, garantizando la protección de la información sensible y el cumplimiento de normativas como GDPR o la Ley de Protección de Datos Personales. Esto implica la implementación de controles de acceso, cifrado de datos y mecanismos de auditoría para asegurar el manejo adecuado de la información. |
-| _[Agregar otro tipo]_ | _[Describir la restricción]_ |
+| Tecnológica | El sistema debe desarrollarse utilizando Angular para el frontend y Spring Boot con APIs REST para la capa de servicios, asegurando una arquitectura moderna y escalable. La base de datos deberá ser PostgreSQL, garantizando compatibilidad con la infraestructura existente y optimización en el manejo de datos |
 
 >  **Tipos de restricciones:**  
-> - **Tecnológicas:** Lenguajes, frameworks o herramientas que deben utilizarse.  
+> - **Tecnológicas:** Lenguajes, frameworks o herramientas que deben utilizarse.
 > - **De negocio:** Normativas o estándares de la empresa.  
 > - **Regulatorias:** Cumplimiento de normativas legales o de seguridad.  
 > - **De infraestructura:** Limitaciones en hardware, red o almacenamiento.  
